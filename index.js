@@ -5,10 +5,17 @@ function scuberGreetingForFeet(feetValue){
       charge = "This one is on me!";
     }
     else if (feetValue > 2000 && feetValue <= 2500){
+<<<<<<< HEAD
       charge = "I will gladly take your thirty bucks.";
     }
     else {
       charge = "No can do.";
+=======
+      charge = "I will gladly take your thirty bucks";
+    }
+    else {
+      charge = "Oops, Sorry";
+>>>>>>> ea12ec25fad6e9233f85684ba960e09abc40dd8b
     }
     return charge;
 }
